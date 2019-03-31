@@ -1,9 +1,8 @@
-#include<stdio.h>
+#include<stdio.h> //：有1、2、3、4个数字，能组成多少个互不相同且无重复数字的三位数？都是多少？
  
 int main()
 {
-    int i,j,k;
-    printf("\n");
+    int i,j,k;//for中间的连接符号用; 
     for(i=1;i<5;i++) { 
         for(j=1;j<5;j++) {
             for (k=1;k<5;k++) { 
